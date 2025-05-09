@@ -3,7 +3,7 @@ FROM ubuntu:24.04
 # Avoid warnings by switching to noninteractive for the build process
 ENV DEBIAN_FRONTEND=noninteractive
 
-ENV VNC_PASSWORD="foobar"
+ENV VNC_PASSWORD="password"
 # Set display resolution (change as needed)
 ENV RESOLUTION=640x480
 # Set port of VNC Server
